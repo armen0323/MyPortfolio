@@ -1,0 +1,232 @@
+.P-work-block{
+  width: 100%;
+
+
+
+  .P-work-left{
+    position: fixed;
+    top: 35%;
+    left: 3%;
+    z-index: 7;
+    .P-work-square{
+      width: 40px;
+      height: 15px;
+      opacity: 2;
+      margin-top: 30px;
+      border-radius: 4px;
+      background: rgba(255, 255, 255, 0.22);
+      box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+      backdrop-filter: blur(5px);
+      -webkit-backdrop-filter: blur(5px);
+      &:hover{
+        background-color: rgba(255, 250, 250, 0.7);
+        cursor: pointer;
+        transition: 0.3s;
+      }
+    }
+  }
+
+
+  .P-work-container{
+
+    .P-work-title{
+      display: flex;
+      padding-top: 180px;
+      .P-work-name{
+        width: 100%;
+        font-size: 60px;
+        color: snow;
+        font-weight: bold;
+        text-align: center;
+        display: flex;
+        justify-content: center;
+        padding-bottom: 30px;
+        .P-text-transition{
+          margin: 0 auto;
+        }
+
+
+      }
+    }
+
+    .P-my-img-block {
+      width: 530px;
+      height: 650px;
+      border-radius: 30px;
+      overflow: hidden;
+      margin: 50px auto;
+      background: rgba(255, 255, 255, 0.04);
+      box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+      backdrop-filter: blur(7.1px);
+      -webkit-backdrop-filter: blur(7.1px);
+      border: 1px solid rgba(255, 255, 255, 0.28);
+      .P-my-img {
+        width: 600px;
+        height: 600px;
+        background-position: center;
+        background-size: cover;
+    transform: translate(-50px, 50px);
+
+
+      }
+    }
+    .P-work-info{
+      color: lightgrey;
+      font-size: 50px;
+      max-width: 620px;
+      text-align: center;
+      margin: 0 auto;
+      font-weight: 300;
+    }
+    .P-about-my{
+      width: 100%;
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-between;
+
+  .P-about-Hobby{
+    width: 47%;
+    margin-top: 50px;
+    background: rgba(255, 255, 255, 0.04);
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(7.1px);
+    -webkit-backdrop-filter: blur(7.1px);
+    border: 1px solid rgba(255, 255, 255, 0.28);
+    padding: 20px;
+    border-radius: 20px;
+    .P-hobby{
+      color: lightgray;
+      font-size: 50px;
+    }
+    .P-hobby-text{
+      font-size: 33px;
+      color: lightgray;
+      margin-top: 25px;
+      line-height: 100%;
+    }
+  }
+      .P-purpose-block{
+        width: 47%;
+        margin-top: 50px;
+        background: rgba(255, 255, 255, 0.04);
+        box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+        backdrop-filter: blur(7.1px);
+        -webkit-backdrop-filter: blur(7.1px);
+        border: 1px solid rgba(255, 255, 255, 0.28);
+        padding: 20px;
+        border-radius: 20px;
+
+        .P-purpose{
+          color: lightgray;
+          font-size: 50px;
+        }
+        .P-purpose-text{
+          font-size: 33px;
+          color: lightgray;
+          margin-top: 25px;
+
+        }
+      }
+      .P-resume{
+        width: 90%;
+        margin: 120px auto 50px auto;
+        background: rgba(255, 255, 255, 0.04);
+        box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+        backdrop-filter: blur(7.1px);
+        -webkit-backdrop-filter: blur(7.1px);
+        border: 1px solid rgba(255, 255, 255, 0.28);
+        padding: 20px;
+        border-radius: 20px;
+        .P-resume-title{
+          text-align: center;
+          font-size: 55px;
+          color: blue;
+        }
+        .P-resume-text-btn {
+          width: 100%;
+          justify-content: space-between;
+          display: flex;
+          align-items: center;
+          .P-resume-text {
+            width: 50%;
+            font-size: 33px;
+            color: lightgray;
+            margin-top: 35px;
+
+          }
+          .P-resume-btn-block{
+            width: 40%;
+            display: flex;
+            align-items: center;
+            .P-resume-btn{
+              cursor: pointer;
+              width: 180px;
+              height: 40px;
+              display: flex;
+              justify-content: center;
+              align-items: center;
+              font-size: 20px;
+              background-color: blue;
+              color: lightgray;
+              border: none;
+              border-radius: 8px;
+              margin-left: 90px;
+
+
+            }
+          }
+
+        }
+      }
+      .P-experiences-block{
+        width: 100%;
+        padding: 25px 0;
+        .P-work-experiences{
+
+          text-align: center;
+          font-size: 50px;
+          color: blue;
+        }
+        .Work-experiences-container{
+          width: 100%;
+          display: flex;
+          margin-top: 50px;
+          justify-content: space-between;
+          align-items: center;
+          .P-work-left-block{
+            width: 48%;
+            background: rgba(255, 255, 255, 0.04);
+            box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+            backdrop-filter: blur(7.1px);
+            -webkit-backdrop-filter: blur(7.1px);
+            border: 1px solid rgba(255, 255, 255, 0.28);
+            padding: 20px;
+            border-radius: 20px;
+.P-sharp{
+  text-align: center;
+  font-size: 55px;
+  color: lightgray;
+}
+            .P-sharp-data{
+              text-align: center;
+              color: gray;
+              font-size: 27px;
+              margin-top: 15px;
+            }
+            .P-sharp-brains{
+              font-size: 33px;
+              color: lightgray;
+              margin-top: 35px;
+            }
+            .P-sharp-brains-block{
+              font-size: 30px;
+              color: aquamarine;
+              margin-top: 20px;
+            }
+          }
+        }
+      }
+    }
+  }
+
+}

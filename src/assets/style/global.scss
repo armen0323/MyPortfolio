@@ -1,0 +1,22 @@
+@import "font";
+body{
+  font-family: josefin,'sans-serif';
+}
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+.G-container{
+  max-width : 1400px;
+  width     : 100%;
+  padding   : 0 65px;
+  margin    : 0 auto;
+}
+.G-pointer{
+  cursor: pointer;
+}
+body{
+  background-color: #b52c79;
+  background-image: linear-gradient(225deg, #b52c79 0%, #4d3167 50%, #236a9b 100%);
+}

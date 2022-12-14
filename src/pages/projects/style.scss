@@ -1,0 +1,88 @@
+.P-skills-block{
+  width: 100%;
+.P-skills-container{
+  margin-top: 190px;
+.P-skills{
+  text-align: center;
+  font-size: 55px;
+  color: blue;
+
+}
+  .P-skills-text{
+    font-size: 27px;
+    color: lightgray;
+    text-align: center;
+    margin: 25px auto;
+    line-height: 1.5;
+    padding: 20px;
+    border-bottom: 1px solid gray;
+  }
+}
+  .P-zay-shop{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 70px;
+    padding: 20px;
+    .P-zay-shop-img{
+      width: 43%;
+      height: 350px;
+      border-radius: 15px;
+     background-size: cover;
+      background-position: right 20% bottom 45%;
+
+    }
+    .P-zay-shop-container{
+      width: 49%;
+.P-zay-shop-title{
+  text-align: center;
+  font-size: 50px;
+  color: blue;
+}
+      .P-zay-shop-text{
+        font-size: 33px;
+        color: lightgray;
+        margin-top: 25px;
+        line-height: 1.2;
+      }
+      .P-zay-shop-logos{
+        display: flex;
+        align-items: center;
+        margin-top: 25px;
+        .P-react-logo{
+          font-size: 50px        }
+        .P-sass-logo{
+          font-size: 50px;
+          margin-left: 20px;
+        }
+      }
+      .P-zay-shop-git{
+        margin-top: 15px;
+        color: gray;
+        font-size: 27px;
+      }
+      .P-zay-shop-btn{
+      width: 100%;
+      height: 40px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      border: none;
+      font-size: 27px;
+      border-radius: 13px;
+        margin-top: 12px;
+        background-color: #449fdb;
+        color: snow;
+        cursor: pointer;
+    }
+      .P-zayshop-web{
+        text-align: end;
+        font-size: 25px;
+        color: gray;
+        margin-top: 10px;
+      }
+
+    }
+  }
+}
