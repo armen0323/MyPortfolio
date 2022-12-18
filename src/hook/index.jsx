@@ -7,7 +7,7 @@ const  usePreloader=()=>{
         setLoading(true);
         setTimeout(()=>{
             setLoading(false)
-        },3000)
+        },1500)
     },[location])
     return{
         loading

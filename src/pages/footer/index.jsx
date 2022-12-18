@@ -1,4 +1,5 @@
 import './style.scss';
+import {NavLink} from "react-router-dom";
 
 function Footer(){
     return(
@@ -13,9 +14,9 @@ function Footer(){
 
                     </div>
                     <div className='P-footer-right'>
-                        <p className='P-footer-list P-first-list'>WORK</p>
-                        <p className='P-footer-list'>PLAYGROUND</p>
-                        <p className='P-footer-list'>ABOUT</p>
+                        <p className='P-footer-list P-first-list'><NavLink className='P-footer-navlink' to='/projects'>Skills</NavLink></p>
+                        <p className='P-footer-list'><NavLink to='/skills' className='P-footer-navlink'>MyProjects</NavLink></p>
+                        <p className='P-footer-list'><NavLink to='/about' className='P-footer-navlink'>About</NavLink></p>
                         <div className='P-footer-social'>
                             <a href="https://www.instagram.com/muradian___/" target='_blank' className='P-footer-social-link'><span className='P-footer-social-logo icon-instagram'/></a>
                             <a href="https://www.facebook.com/profile.php?id=100009908355724" target='_blank' className='P-footer-social-link'><span className='P-footer-social-logo icon-facebook'/></a>

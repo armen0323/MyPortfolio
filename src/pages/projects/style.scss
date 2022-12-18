@@ -5,12 +5,13 @@
 .P-skills{
   text-align: center;
   font-size: 55px;
-  color: blue;
+  color: #0f141e;
 
 }
   .P-skills-text{
     font-size: 27px;
-    color: lightgray;
+    color: #878a8f;
+    letter-spacing: 0.1rem;
     text-align: center;
     margin: 25px auto;
     line-height: 1.5;
@@ -38,11 +39,12 @@
 .P-zay-shop-title{
   text-align: center;
   font-size: 50px;
-  color: blue;
+  color: #0f141e;
 }
       .P-zay-shop-text{
         font-size: 33px;
-        color: lightgray;
+        color: #878a8f;
+        letter-spacing: 0.1rem;
         margin-top: 25px;
         line-height: 1.2;
       }
@@ -59,27 +61,46 @@
       }
       .P-zay-shop-git{
         margin-top: 15px;
-        color: gray;
+        color: #0f141e;;
         font-size: 27px;
       }
       .P-zay-shop-btn{
-      width: 100%;
-      height: 40px;
+      width: 60px;
+      height: 60px;
       display: flex;
-      justify-content: center;
       align-items: center;
       border: none;
-      font-size: 27px;
-      border-radius: 13px;
+
+      border-radius: 27px;
         margin-top: 12px;
         background-color: #449fdb;
-        color: snow;
         cursor: pointer;
+        .P-zay-shop-btn-text{
+          font-size: 1px;
+          //visibility: visible;
+        }
+        .P-zay-shop-btn-logo{
+          font-size: 35px;
+          color: snow;
+          margin-left: 13px;
+        }
+        &:hover{
+          width: 250px;
+          transition: 0.3s;
+          .P-zay-shop-btn-text{
+            font-size: 23px;
+            visibility: visible;
+            transition: 0.3s;
+            margin-left: 30px;
+            color: snow;
+          }
+        }
     }
       .P-zayshop-web{
         text-align: end;
+
         font-size: 25px;
-        color: gray;
+        color: #0f141e;;
         margin-top: 10px;
       }
 

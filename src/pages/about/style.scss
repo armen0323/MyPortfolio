@@ -1,0 +1,83 @@
+.P-about-block{
+  width: 100%;
+  .P-about-container{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 100px;
+    .P-about-left{
+      width: 49%;
+      padding: 20px;
+.P-about-left-title{
+  font-size: 55px;
+  color: #0f141e;
+  margin-top: 70px;
+}
+      .P-about-left-text{
+        font-size: 27px;
+        color: #878a8f;
+        margin-top: 25px;
+        line-height: 1.3;
+      }
+      .P-about-left-text2{
+        font-size: 27px;
+        color: #878a8f;
+        margin-top: 25px;
+        line-height: 1.3;
+      }
+    }
+    .P-about-right{
+      width: 48%;
+      padding: 20px;
+      .P-about-right-title{
+        font-size: 55px;
+        color: #0f141e;
+        margin-top: 70px;
+      }
+      .P-about-right-contact{
+        font-size: 27px;
+        color: #878a8f;
+        margin-top: 25px;
+        line-height: 1.3;
+      }
+      .P-about-right-img{
+        width: 80%;
+        height: 500px;
+        background-color: red;
+        border-radius: 20px;
+       margin: 25px auto 0 auto;
+        background-size: cover;
+       background-position: center;
+.P-about-my-image{
+  background-color: lightgray;
+  width: 100%;
+  height: 100%;
+  opacity: 0.3;
+  &:hover{
+    visibility: hidden;
+    transition: 0.2s;
+  }
+}
+      }
+      .P-about-right-info{
+        font-size: 27px;
+        color: #878a8f;
+        margin-top: 25px;
+        line-height: 1.3;
+      }
+      .P-about-email{
+        margin-top: 20px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        color: snow;
+        font-size: 27px;
+        text-decoration: none;
+        cursor: pointer;
+        width: 100%;
+        height: 60px;
+        border-radius: 5px;
+        background-color: blue;
+      }
+    }
+  }
+}

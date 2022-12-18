@@ -1,61 +1,125 @@
-.P-header-block{
-  width: 100%;
-  height: 100px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  position: absolute;
-  left: 0;
-  top: 0;
-  background: rgba(255, 255, 255, 0.04);
-  box-shadow: 0 2px 60px rgba(0, 0, 0, 0.1);
-  backdrop-filter: blur(7.1px);
-  -webkit-backdrop-filter: blur(7.1px);
-  border: 1px solid rgba(255, 255, 255, 0.28);
-  z-index: 9999;
-
-  .P-header-container{
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    .P-header-Logos{
-      display: flex;
-      align-items: center;
-
-      .P-header-logo{
-        width: 80px;
-        height: 80px;
-        background-size: cover;
-        background-position: center;
-        background-repeat: no-repeat;
+.P-header-container-all{
+   .P-work-left{
+    position: fixed;
+    top: 35%;
+    left: 3%;
+    z-index: 7;
+    .P-work-square{
+      width: 40px;
+      height: 15px;
+      opacity: 2;
+      margin-top: 30px;
+      border-radius: 4px;
+      background: #878a8f;
+      box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+      backdrop-filter: blur(5px);
+      -webkit-backdrop-filter: blur(5px);
+      &:hover{
+        background-color: rgba(255, 250, 250, 0.7);
+        cursor: pointer;
+        transition: 0.3s;
       }
-      .active{
-  .P-header-logo{
-    filter: invert(80%);
+    }
   }
+  .P-home-contact-btn{
+    position: fixed;
+    left: 60px;
+    top: 800px;
+    width: 65px;
+    height: 65px;
+    background-color: #878a8f;
+    border-radius: 29px;
+    cursor: pointer;
+    align-items: center;
+z-index: 99999999999;
+    display: flex;
+    padding: 15px;
+    text-decoration: none;
+    &:hover{
+      width: 200px;
+      transition: 0.3s;
+      justify-content: space-between;
+      background-color: black;
+
+      .P-home-contact-icon{
+        font-size: 23px;
+        visibility: visible;
+        transition: 0.3s;
       }
 
     }
-    .P-header-Lists{
-      display: flex;
-      list-style-type: none;
-      .P-header-list{
-        font-size: 25px;
-        font-weight: 300;
-        cursor: pointer;
-        color:snow ;
-        margin-right: 15px;
-        cursor: pointer;
-        a{
+    .P-massage-icon{
+      font-size: 30px;
+      color: snow;
+    }
+    .P-home-contact-icon{
+      font-size: 1px;
+      color: snow;
+      visibility: hidden;
+    }
+  }
+  .P-header-block{
+    width: 100%;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: fixed;
+    left: 0;
+    top: 0;
+    background: rgba(255, 255, 255, 0.04);
+    box-shadow: 0 2px 60px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(7.1px);
+    -webkit-backdrop-filter: blur(7.1px);
+    border: 1px solid rgba(255, 255, 255, 0.28);
+    z-index: 9999;
 
-          color:snow ;
-          text-decoration: none;
+    .P-header-container{
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      .P-header-Logos{
+        display: flex;
+        align-items: center;
+
+        .P-header-logo{
+          width: 80px;
+          height: 80px;
+          background-size: cover;
+          background-position: center;
+          background-repeat: no-repeat;
         }
         .active{
-          color: aquamarine;
+          .P-header-logo{
+            filter: invert(80%);
+          }
         }
-        &:last-child{
-          margin-right: 0;
+
+      }
+      .P-header-Lists{
+        display: flex;
+        list-style-type: none;
+        .P-header-list{
+          font-size: 25px;
+          font-weight: 300;
+          cursor: pointer;
+          margin-right: 15px;
+          cursor: pointer;
+          a{
+
+            color: #0f141e;
+            text-decoration: none;
+            font-weight: 500;
+            &:hover{
+              color: #878a8f;
+            }
+          }
+          .active{
+            color: #878a8f;
+          }
+          &:last-child{
+            margin-right: 0;
+          }
         }
       }
     }

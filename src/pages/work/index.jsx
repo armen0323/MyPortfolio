@@ -5,10 +5,9 @@ import TextTransition, { presets } from "react-text-transition";
 import MyWorks from "./components/myWorks";
 import {worksList} from "./worksList";
 const languages = [
-    "Hello I'm Armen",
-    "Bonjour, je suis Armen",
-    "Привет я Армен",
-    "Բարև ես Արմենն եմ",
+    "Armen Muradyan",
+    "Արմեն Մուրադյան",
+
 
 
 ];
@@ -30,31 +29,36 @@ function Work(){
 
     return(
         <section className='P-work-block' data-aos="unset">
-            <div className='P-work-left'>
-                <div className="P-work-square"/>
-                <div className="P-work-square"/>
-                <div className="P-work-square"/>
-                <div className="P-work-square"/>
-                <div className="P-work-square"/>
-                <div className="P-work-square"/>
-                <div className="P-work-square"/>
-            </div>
+
             <div className='P-work-container G-container'>
 
-                <div className='P-work-title'>
-                    <h2 className='P-work-name' data-aos="fade-down" data-aos-duration="700" >
-                        <TextTransition className='P-text-transition' springConfig={presets.wobbly} delay={3}>
-                            {languages[index % languages.length]}
-                        </TextTransition>
-                    </h2>
-                </div>
+                {/*<div className='P-work-title'>*/}
+                {/*    <h2 className='P-work-name' data-aos="fade-down" data-aos-duration="700" >*/}
+                {/*        <TextTransition className='P-text-transition' springConfig={presets.wobbly} delay={3}>*/}
+                {/*            {languages[index % languages.length]}*/}
+                {/*        </TextTransition>*/}
+                {/*    </h2>*/}
+                {/*</div>*/}
 
-                <div className='P-my-img-block' data-aos="flip-left"
-                     data-aos-easing="ease-out-cubic"
-                     data-aos-duration="700">
-                    <div  className='P-my-img' style={{backgroundImage: `url(${ArmImg})`}}/>
+                {/*<div className='P-my-img-block' data-aos="flip-left"*/}
+                {/*     data-aos-easing="ease-out-cubic"*/}
+                {/*     data-aos-duration="700">*/}
+                {/*    <div  className='P-my-img' style={{backgroundImage: `url(${ArmImg})`}}/>*/}
+                {/*</div>*/}
+                {/*<div className='P-work-info' data-aos="fade-up">I'm a Front-end developer with a year of work experiacne</div>*/}
+                <div className='P-home-block'>
+                    <div className='P-home-left-block'>
+                        <h2 className="P-home-my-name">
+                                    <TextTransition  springConfig={presets.wobbly} delay={3}>
+                                      {languages[index % languages.length]}
+                                   </TextTransition>
+                        </h2>
+                        <p className="P-home-subtitle">Website and user interface designer</p>
+                        <p className="P-home-text">Over the past 9 years, as an art director and designer, I’ve worked with big companies and up-and-coming startups to successfully help them reach their full potential and attract new customers.</p>
+
+                    </div>
+                    <div className="P-home-right-block" />
                 </div>
-                <div className='P-work-info' data-aos="fade-up">I'm a Front-end developer with a year of work experiacne</div>
 
     <div className="P-about-my">
     <div className='P-about-Hobby' data-aos="fade-right" data-aos-duration="700">
