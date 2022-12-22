@@ -10,9 +10,9 @@ function MyProjects(){
                 </div>
                 <div className="P-zay-shop">
                     <div className='P-zay-shop-img' data-aos="fade-right" data-aos-duration="700" style={{backgroundImage:`url('${zay}')`}}/>
-                    <div className="P-zay-shop-container" data-aos="fade-left" data-aos-duration="700">
-                        <h2 className="P-zay-shop-title">Zay Shop</h2>
-                        <p className="P-zay-shop-text">This is an amazing website that has 6 separate pages in which a lot of functionality and logic are written in other things, see for yourself.</p>
+                    <div className="P-zay-shop-container" >
+                        <h2 className="P-zay-shop-title" data-aos="fade-left" data-aos-duration="700">Zay Shop</h2>
+                        <p className="P-zay-shop-text" data-aos="fade-left" data-aos-duration="700">This is an amazing website that has 6 separate pages in which a lot of functionality and logic are written in other things, see for yourself.</p>
                         <div className="P-zay-shop-logos">
                             <div className="P-react-logo icon-react"/>
                             <div className="P-sass-logo icon-sass"/>

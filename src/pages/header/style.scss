@@ -1,14 +1,14 @@
 .P-header-container-all{
    .P-work-left{
     position: fixed;
-    top: 35%;
+    top: 32%;
     left: 3%;
     z-index: 7;
     .P-work-square{
-      width: 40px;
-      height: 15px;
+      width: 35px;
+      height: 13px;
       opacity: 2;
-      margin-top: 30px;
+      margin-top: 25px;
       border-radius: 4px;
       background: #878a8f;
       box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
@@ -23,33 +23,33 @@
   }
   .P-home-contact-btn{
     position: fixed;
-    left: 60px;
-    top: 800px;
-    width: 65px;
-    height: 65px;
+    left: 2.7%;
+    top: 72%;
+    width: 45px;
+    height: 45px;
     background-color: #878a8f;
     border-radius: 29px;
     cursor: pointer;
     align-items: center;
 z-index: 99999999999;
     display: flex;
-    padding: 15px;
+    padding: 11px;
     text-decoration: none;
     &:hover{
-      width: 200px;
+      width: 170px;
       transition: 0.3s;
       justify-content: space-between;
       background-color: black;
 
       .P-home-contact-icon{
-        font-size: 23px;
+        font-size: 21px;
         visibility: visible;
         transition: 0.3s;
       }
 
     }
     .P-massage-icon{
-      font-size: 30px;
+      font-size: 23px;
       color: snow;
     }
     .P-home-contact-icon{
@@ -100,7 +100,7 @@ z-index: 99999999999;
         display: flex;
         list-style-type: none;
         .P-header-list{
-          font-size: 25px;
+          font-size: 20px;
           font-weight: 300;
           cursor: pointer;
           margin-right: 15px;

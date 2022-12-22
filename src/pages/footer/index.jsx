@@ -4,7 +4,7 @@ import {NavLink} from "react-router-dom";
 function Footer(){
     return(
         <footer className='P-footer-block'>
-                <div className='G-container P-footer-container'>
+                <div className='G-container-footer P-footer-container'>
                     <div className='P-footer-left'>
                         <h2 className='P-footer-title'>Get in touch</h2>
                         <p className='P-footer-text'>

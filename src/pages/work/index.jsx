@@ -1,6 +1,6 @@
 import './style.scss';
-import {useEffect, useState} from "react";
-import ArmImg from  '../../assets/images/Armsssss.png';
+import {useEffect, useRef, useState} from "react";
+import ArmImg from  '../../assets/images/armjan.png';
 import TextTransition, { presets } from "react-text-transition";
 import MyWorks from "./components/myWorks";
 import {worksList} from "./worksList";
@@ -12,6 +12,17 @@ const languages = [
 
 ];
 function Work(){
+    const myRef = useRef(null);
+    useEffect(()=>{
+        window.onscroll = function (){
+            let numY =1-(window.scrollY/200)
+            if(numY <=0){
+                numY = 0
+            }
+            myRef.current.style.opacity = `${numY}`
+            console.log(numY.toFixed(1))
+        }
+    },[])
     const [list,setList] = useState(worksList);
     const [index, setIndex] = useState(0);
     useEffect(() => {
@@ -57,7 +68,10 @@ function Work(){
                         <p className="P-home-text">Over the past 9 years, as an art director and designer, I’ve worked with big companies and up-and-coming startups to successfully help them reach their full potential and attract new customers.</p>
 
                     </div>
-                    <div className="P-home-right-block" />
+
+                    <div className="P-home-right-block" >
+                        <div className="P-home-my-image" style={{backgroundImage:`url('${ArmImg}')`}} ref={myRef}/>
+                    </div>
                 </div>
 
     <div className="P-about-my">
